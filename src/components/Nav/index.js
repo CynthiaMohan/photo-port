@@ -35,7 +35,8 @@ function Nav(props) {
           </li>
           {categories.map((category) => (
             <li
-              className={`mx-1 ${currentCategory.name === category.name
+              className={`mx-1 ${
+                currentCategory.name === category.name
                 }`}
               key={category.name}
             >
